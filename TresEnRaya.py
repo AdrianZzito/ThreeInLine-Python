@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 player1_name = input("Introduce el nombre del jugador 1: ")
 player2_name = input("Introduce el nombre del jugador 2: ")
 
@@ -125,16 +119,3 @@ while turnosp1 > 0 and turnosp2 > 0:
     elif a3 == "o" and b2 == "o" and c1 == "o":
         print(player2_name + " gana el juego")
         break 
-
-
-# In[ ]:
-
-
-print("x")
-
-
-# In[ ]:
-
-
-
-
