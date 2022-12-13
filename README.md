@@ -12,3 +12,9 @@ c1 c2 c3
 So if you want to place an x in the middle of the board, when is your turn, you need to write b2.
 
 #### Pull requests are admitted.
+
+## Future Plans
+- Add an AI that allows someone to play alone
+- Integrate Pandas so the board can be displayed in a better way
+- Optimize code
+
