@@ -1,15 +1,12 @@
-<<<<<<< HEAD
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[3]:
 
 
 # User inputs
 
 ## Player name input
-=======
->>>>>>> main
 player1_name = input("Introduce el nombre del jugador 1: ")
 player2_name = input("Introduce el nombre del jugador 2: ")
 
@@ -27,18 +24,17 @@ else:
     print("Icono Invalido")
 
 # Board creation
-a1 = " "; a2 = " "; a3 = " "
-b1 = " "; b2 = " "; b3 = " "
-c1 = " "; c2 = " "; c3 = " "
+a1 = "a1"; a2 = "a2"; a3 = "a3"
+b1 = "b1"; b2 = "b2"; b3 = "b3"
+c1 = "c1"; c2 = "c2"; c3 = "c3"
 
 turnosp1 = 5
 turnosp2 = 5
 
 
 # Board print
-## print("_",a1,"_ | _",a2,"_ | _",a3,"_\n_",b1,"_ | _",b2,"_ | _",b3,"_\n_",c1,"_ | _",c2,"_ | _",c3,"_\n")
-board = pd.DataFrame([ [a1, a2, a3], [b1, b2, b3], [c1, c2, c3] ], columns = ["a", "b", "c"], index = [1, 2, 3])
-display(board)
+print("_",a1,"_ | _",a2,"_ | _",a3,"_\n_",b1,"_ | _",b2,"_ | _",b3,"_\n_",c1,"_ | _",c2,"_ | _",c3,"_\n")
+
 
 while turnosp1 > 0 and turnosp2 > 0:
     selection_p1 = input(player1_name + ", donde quiere poner su ficha? ")
@@ -138,7 +134,6 @@ while turnosp1 > 0 and turnosp2 > 0:
     elif a3 == "o" and b2 == "o" and c1 == "o":
         print(player2_name + " gana el juego")
         break 
-<<<<<<< HEAD
 
 
 # In[ ]:
@@ -152,5 +147,3 @@ while turnosp1 > 0 and turnosp2 > 0:
 
 
 
-=======
->>>>>>> main
